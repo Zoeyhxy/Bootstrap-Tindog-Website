@@ -1,0 +1,56 @@
+.gradient-background {
+  background: linear-gradient(300deg, #D56650, #D0A8CD, #EAC5AB);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+.feature-icon {
+  margin-right: 8px;
+  background-color: #D0A8CD;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+.round-dog {
+  border-radius: 50%;
+}
+
+#testimonial {
+  background-color: #EFDA89;
+  padding-bottom: 32px;
+}
+
+
+
+
+#footer {
+  margin-bottom: 0;
+  padding: 60px;
+}
+
+
+.badage {
+  margin-top: 64px;
+
+}
+
+
+
+
+
+
